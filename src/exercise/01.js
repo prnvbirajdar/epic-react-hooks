@@ -8,7 +8,6 @@ function Greeting({initialName}) {
 
   function handleChange(event) {
     setName(event.target.value)
-    // 🐨 update the name here based on event.target.value
   }
 
   return (
